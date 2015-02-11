@@ -56,7 +56,8 @@ a:visited {
 img {
   margin-left: auto;
   margin-right: auto;
-  display: block; }
+  display: block;
+  max-width: 100%; }
 
 /*****************************************************************************
   Module Styles
