@@ -229,7 +229,7 @@ module.exports = function (grunt) {
           },
           pages: {
             options: {
-              remote: 'https://github.com/ofairclough/Tileset.git',
+              remote: 'https://github.com/ofairclough/Title-Page.git',
               branch: 'gh-pages'
             }
           },
