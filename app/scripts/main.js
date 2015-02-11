@@ -1,9 +1,9 @@
 $(document).ready(function() {
     
-   $('div').mouseenter(function() {
-   	$(this).fadeTo('fast',0.75);
+   $('.tile').mouseenter(function() {
+   	$(this).fadeTo('fast',0.75)
 });
-   	$('div').mouseleave(function() {
+   	$('.tile').mouseleave(function() {
    	$(this).fadeTo('fast',1);
 
    	});

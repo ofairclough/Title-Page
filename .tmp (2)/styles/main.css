@@ -1,0 +1,48 @@
+/*****************************************************************************
+  tileset
+******************************************************************************/
+/* Neat 1.7.0
+ * http://neat.bourbon.io
+ * Copyright 2012-2014 thoughtbot, inc.
+ * MIT License */
+html {
+  box-sizing: border-box; }
+
+*, *:before, *:after {
+  box-sizing: inherit; }
+
+/*****************************************************************************
+  Base Styles
+******************************************************************************/
+div {
+  height: 2.5em;
+  width: 25%;
+  background-color: #045dd2;
+  color: white;
+  border: 20px;
+  display: inline-block;
+  text-align: center;
+  font-size: 2.5rem;
+  border-spacing: 0.5rem;
+  margin: 0.5rem; }
+
+a {
+  text-decoration: none;
+  vertical-align: middle;
+  text-align: center;
+  line-height: 2.5em; }
+
+a:visited {
+  color: white;
+  font-style: normal; }
+
+/*****************************************************************************
+  Layout Styles
+******************************************************************************/
+.titletext {
+  font-size: 4.5em;
+  margin: 1px; }
+
+/*****************************************************************************
+  Module Styles
+******************************************************************************/
