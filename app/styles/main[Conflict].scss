@@ -1,0 +1,81 @@
+/*****************************************************************************
+  tileset
+******************************************************************************/
+
+
+@import '../../bower_components/bourbon/dist/_bourbon.scss';
+
+@import '../../bower_components/neat/app/assets/stylesheets/_neat.scss';
+
+
+
+
+
+/*****************************************************************************
+  Base Styles
+******************************************************************************/
+.container{
+width: 90%;
+margin-left: auto;
+margin-right: auto;
+float: none;
+margin-top: 100px;
+}
+.tile {
+
+width:29.7%;
+
+height: 90px;
+
+background-color: rgb(4, 93, 210);
+color: white;
+
+display: block;
+text-align: center; 
+font-size: 2.5rem;
+border-spacing: 0.5rem;
+margin: 20px;
+float: left;
+}
+
+a {
+text-decoration:none;
+vertical-align: middle;
+text-align: center; 
+line-height: 2.5em;
+display: block;
+font-size: 36px;
+
+}
+
+a:visited{
+	color:white;
+	font-style: normal;
+}
+
+
+
+/*****************************************************************************
+  Layout Styles
+******************************************************************************/
+
+
+.titletext {
+	font-size: 4.5em;
+	margin-left: 20px;
+	margin-top: 12rem;
+}
+img {
+	margin-left:auto;
+	margin-right: auto;
+	display: block;
+}
+
+
+/*****************************************************************************
+  Module Styles
+******************************************************************************/
+
+
+
+
