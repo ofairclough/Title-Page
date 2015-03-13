@@ -50,10 +50,7 @@ div.navbar-inverse .navbar-inner {
           filter: none;
   background-color: none; }
 
-/*****************************************************************************
-  Layout Styles
-******************************************************************************/
-.titletext {
+it .titletext {
   font-size: 4.5em;
   margin-left: 20px;
   margin-top: 12rem; }
