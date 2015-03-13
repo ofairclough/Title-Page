@@ -52,9 +52,13 @@ a:visited{
 	color:white;
 	font-style: normal;
 }
-
 div.navbar-inverse .navbar-inner {
     filter: none;
+    background-color: none;
+}
+
+div.navbar-inverse .navbar-fixed-top{
+filter: none;
     background-color: none;
 }
 
