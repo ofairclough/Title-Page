@@ -45,6 +45,11 @@ a:visited {
   color: white;
   font-style: normal; }
 
+div.navbar-inverse .navbar-inner {
+  -webkit-filter: none;
+          filter: none;
+  background-color: none; }
+
 /*****************************************************************************
   Layout Styles
 ******************************************************************************/
