@@ -14,13 +14,6 @@ html {
 /*****************************************************************************
   Base Styles
 ******************************************************************************/
-.container {
-  width: 90%;
-  margin-left: auto;
-  margin-right: auto;
-  float: none;
-  margin-top: 100px; }
-
 .tile {
   width: 29.7%;
   height: 90px;
@@ -33,7 +26,7 @@ html {
   margin: 20px;
   float: left; }
 
-a {
+.toolname {
   text-decoration: none;
   vertical-align: middle;
   text-align: center;
@@ -63,11 +56,41 @@ div.navbar-inverse .navbar-fixed-top {
   margin-left: 20px;
   margin-top: 12rem; }
 
-img {
+#bigtitle {
   margin-left: auto;
   margin-right: auto;
   display: block;
   max-width: 100%; }
+
+.navbar-btn {
+  margin-left: 10px; }
+
+.navbar-inverse .navbar-btn {
+  background-color: #222222;
+  border-color: #333333;
+  border-width: 3px;
+  color: #999999; }
+
+.navbar-inverse .navbar-btn:hover {
+  color: #ffffff;
+  background-color: #333333; }
+
+.toplogo {
+  display: inline;
+  margin-right: 10px;
+  max-height: 50px;
+  width: auto;
+  height: auto; }
+
+body {
+  margin-top: 70px; }
+
+#titleh {
+  margin-top: 0px;
+  color: white; }
+
+#refresh, #home {
+  float: right; }
 
 /*****************************************************************************
   Module Styles
