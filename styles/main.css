@@ -75,6 +75,9 @@ div.navbar-inverse .navbar-fixed-top {
   color: #ffffff;
   background-color: #333333; }
 
+.navbar-btn {
+  margin-left: 10px; }
+
 .toplogo {
   display: inline;
   margin-right: 10px;
