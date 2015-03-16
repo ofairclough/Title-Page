@@ -110,10 +110,19 @@ color: white;
 
 }
 
-#refresh,#home{
-float: right;
+#refresh, #home{
 
+  float:right;
 }
+
+.tilebox{
+width: 90%;
+margin-left: auto;
+margin-right: auto;
+float: none;
+margin-top: 100px;
+}
+
 
 /*****************************************************************************
   Module Styles
