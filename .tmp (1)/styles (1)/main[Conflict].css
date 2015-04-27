@@ -14,6 +14,13 @@ html {
 /*****************************************************************************
   Base Styles
 ******************************************************************************/
+.container {
+  width: 90%;
+  margin-left: auto;
+  margin-right: auto;
+  float: none;
+  margin-top: 100px; }
+
 .tile {
   width: 29.7%;
   height: 90px;
@@ -26,7 +33,7 @@ html {
   margin: 20px;
   float: left; }
 
-.toolname {
+a {
   text-decoration: none;
   vertical-align: middle;
   text-align: center;
@@ -38,16 +45,6 @@ a:visited {
   color: white;
   font-style: normal; }
 
-div.navbar-inverse .navbar-inner {
-  -webkit-filter: none;
-          filter: none;
-  background-color: none; }
-
-div.navbar-inverse .navbar-fixed-top {
-  -webkit-filter: none;
-          filter: none;
-  background-color: none; }
-
 /*****************************************************************************
   Layout Styles
 ******************************************************************************/
@@ -56,51 +53,10 @@ div.navbar-inverse .navbar-fixed-top {
   margin-left: 20px;
   margin-top: 12rem; }
 
-#bigtitle {
+img {
   margin-left: auto;
   margin-right: auto;
-  display: block;
-  max-width: 100%; }
-
-.navbar-btn {
-  margin-left: 10px; }
-
-.navbar-inverse .navbar-btn {
-  background-color: #222222;
-  border-color: #333333;
-  border-width: 3px;
-  color: #999999; }
-
-.navbar-inverse .navbar-btn:hover {
-  color: #ffffff;
-  background-color: #333333; }
-
-.navbar-btn {
-  margin-left: 10px; }
-
-.toplogo {
-  display: inline;
-  margin-right: 10px;
-  max-height: 50px;
-  width: auto;
-  height: auto; }
-
-body {
-  margin-top: 70px; }
-
-#titleh {
-  margin-top: 0px;
-  color: white; }
-
-#refresh, #home {
-  float: right; }
-
-.tilebox {
-  width: 90%;
-  margin-left: auto;
-  margin-right: auto;
-  float: none;
-  margin-top: 100px; }
+  display: block; }
 
 /*****************************************************************************
   Module Styles
