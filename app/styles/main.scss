@@ -14,7 +14,10 @@
 /*****************************************************************************
   Base Styles
 ******************************************************************************/
+#tabs{
+display:none;
 
+}
 .tile {
 
 width:29.7%;
@@ -44,12 +47,14 @@ text-align: center;
 line-height: 2.5em;
 display: block;
 font-size: 36px;
+color: white;
 
 
 }
 
 a.toolname:hover{
 text-decoration: none;
+color:white;
 
 }
 
