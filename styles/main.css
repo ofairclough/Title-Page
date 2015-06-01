@@ -14,6 +14,9 @@ html {
 /*****************************************************************************
   Base Styles
 ******************************************************************************/
+#tabs {
+  display: none; }
+
 .tile {
   width: 29.7%;
   height: 90px;
@@ -24,7 +27,9 @@ html {
   font-size: 2.5rem;
   border-spacing: 0.5rem;
   margin: 20px;
-  float: left; }
+  float: left;
+  border-radius: 10px;
+  box-shadow: 10px 10px 39px 3px #878787; }
 
 .toolname {
   text-decoration: none;
@@ -32,11 +37,17 @@ html {
   text-align: center;
   line-height: 2.5em;
   display: block;
-  font-size: 36px; }
+  font-size: 36px;
+  color: white; }
+
+a.toolname:hover {
+  text-decoration: none;
+  color: white; }
 
 a:visited {
   color: white;
-  font-style: normal; }
+  font-style: normal;
+  text-decoration: none; }
 
 div.navbar-inverse .navbar-inner {
   -webkit-filter: none;
@@ -57,10 +68,12 @@ div.navbar-inverse .navbar-fixed-top {
   margin-top: 12rem; }
 
 #bigtitle {
+  margin-top: 10em;
   margin-left: auto;
   margin-right: auto;
   display: block;
-  max-width: 100%; }
+  width: inherit;
+  margin-bottom: 5em; }
 
 .navbar-btn {
   margin-left: 10px; }
@@ -97,10 +110,11 @@ body {
 
 .tilebox {
   width: 90%;
+  margin-top: 1em;
   margin-left: auto;
   margin-right: auto;
   float: none;
-  margin-top: 100px; }
+  margin-top: 5em; }
 
 /*****************************************************************************
   Module Styles
