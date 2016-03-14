@@ -64,10 +64,17 @@ $(".esp,.local").css('display','none')
 
    	});
 
+    if ( localStorage.getItem('Region')==null  ){
+$('.til').css('display','none')
+
+    }
+
 $('#region').change(function(){
 
 localStorage.setItem('Region', $(this).val() )
 $('.RG').html(localStorage.getItem('Region'))
+
+$('.til').fadeIn();
 });
 
   });
