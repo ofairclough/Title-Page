@@ -45,6 +45,18 @@ $(document).ready(function() {
 
 })(window, document, undefined);
 
+//REFRESH BUTTON
+
+$('#refresh').click(function()
+
+{
+
+  
+    location.reload(true); 
+ 
+ });
+
+
 var url= window.location.href.split('/')
 
  if( $.inArray('western', url) > -1){
@@ -64,10 +76,21 @@ $(".esp,.local").css('display','none')
 
    	});
 
+//Hide Tiles if Region Not Selected
+
     if ( localStorage.getItem('Region')==null  ){
 $('.til').css('display','none')
 
     }
+
+    else{
+    
+      
+$('#region').val(localStorage.getItem('Region'))
+$('.RG').html(localStorage.getItem('Region'))
+
+}
+        
 
 $('#region').change(function(){
 
